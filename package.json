@@ -17,6 +17,7 @@
     "assets": "public/**/*"
   },
   "scripts": {
+    "postinstall": "mkdir public",
     "start": "node index",
     "build": "pkg package.json --out-path build"
   }

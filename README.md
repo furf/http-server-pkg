@@ -25,13 +25,7 @@ A utility for creating standalone HTTP servers.
     $ yarn install
     ```
 
-3. Create a root directory for assets.
-
-    ```bash
-    $ mkdir public
-    ```
-
-## Usage
+## Development
 
 Copy site assets into `/path/to/http-server-pkg/public`.
 
@@ -64,6 +58,16 @@ Running the build command will generate standalone HTTP server executables for L
   ```bash
   $ yarn run build
   ```
+
+## Usage
+
+### Starting the server
+
+Double-click the executable appropriate for your platform (in the `build` directory). The application will search for the first available port between 8000–8999 on the host machine and start the HTTP server. A console window will open to monitor the HTTP server process. Your default browser will launch and navigate to the root of your website (e.g. [http://localhost:8000](http://localhost:8000)).
+
+### Stopping the server
+
+To stop the HTTP server, type CTRL-C in the application console or quit the application.
 
 ## License
 MIT © [David Furfero](https://furf.com/)
