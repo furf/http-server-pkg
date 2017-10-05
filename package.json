@@ -4,7 +4,7 @@
   "main": "index.js",
   "bin": "index.js",
   "license": "MIT",
-  "description": "Standalone HTTP server",
+  "description": "A utility for creating standalone HTTP servers.",
   "repository": "https://github.com/furf/http-server-pkg",
   "author": "David Furfero",
   "dependencies": {
